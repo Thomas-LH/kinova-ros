@@ -1,0 +1,6 @@
+devel_space: /home/lh/kinova-ros/devel
+install: false
+install_space: /home/lh/kinova-ros/install
+profile: default
+source_space: /home/lh/kinova-ros/src
+workspace: /home/lh/kinova-ros

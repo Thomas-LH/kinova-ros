@@ -1,0 +1,8 @@
+prefix=/home/lh/kinova-ros/devel/.private/kinova_description
+
+Name: kinova_description
+Description: Description of kinova_description
+Version: 0.0.1
+Cflags: 
+Libs: -L/home/lh/kinova-ros/devel/.private/kinova_description/lib 
+Requires: 

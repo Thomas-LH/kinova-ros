@@ -1,0 +1,8 @@
+prefix=/home/lh/kinova-ros/install
+
+Name: kinova_bringup
+Description: Description of kinova_bringup
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/lh/kinova-ros/install/lib 
+Requires: 

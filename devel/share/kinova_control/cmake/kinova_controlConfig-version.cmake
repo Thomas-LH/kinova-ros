@@ -1,0 +1,1 @@
+/home/lh/kinova-ros/devel/.private/kinova_control/share/kinova_control/cmake/kinova_controlConfig-version.cmake

@@ -1,0 +1,1 @@
+/home/lh/kinova-ros/devel/.private/kinova_msgs/share/kinova_msgs/msg/ArmPoseActionResult.msg

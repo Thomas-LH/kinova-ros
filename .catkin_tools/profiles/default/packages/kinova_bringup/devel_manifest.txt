@@ -1,0 +1,4 @@
+kinova_bringup
+/home/lh/kinova-ros/devel/.private/kinova_bringup/share/kinova_bringup/cmake/kinova_bringupConfig-version.cmake /home/lh/kinova-ros/devel/share/kinova_bringup/cmake/kinova_bringupConfig-version.cmake
+/home/lh/kinova-ros/devel/.private/kinova_bringup/share/kinova_bringup/cmake/kinova_bringupConfig.cmake /home/lh/kinova-ros/devel/share/kinova_bringup/cmake/kinova_bringupConfig.cmake
+/home/lh/kinova-ros/devel/.private/kinova_bringup/lib/pkgconfig/kinova_bringup.pc /home/lh/kinova-ros/devel/lib/pkgconfig/kinova_bringup.pc

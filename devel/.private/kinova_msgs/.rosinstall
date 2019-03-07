@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/lh/kinova-ros/devel/.private/kinova_msgs/setup.sh

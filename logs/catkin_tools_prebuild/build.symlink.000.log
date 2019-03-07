@@ -1,0 +1,8 @@
+Symlinking /home/lh/kinova-ros/devel/./setup.zsh
+Symlinking /home/lh/kinova-ros/devel/./env.sh
+Symlinking /home/lh/kinova-ros/devel/./setup.bash
+Symlinking /home/lh/kinova-ros/devel/./_setup_util.py
+Symlinking /home/lh/kinova-ros/devel/./setup.sh
+Symlinking /home/lh/kinova-ros/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake
+Symlinking /home/lh/kinova-ros/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake
+Symlinking /home/lh/kinova-ros/devel/lib/pkgconfig/catkin_tools_prebuild.pc

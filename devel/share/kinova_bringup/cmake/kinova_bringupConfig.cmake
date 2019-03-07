@@ -1,0 +1,1 @@
+/home/lh/kinova-ros/devel/.private/kinova_bringup/share/kinova_bringup/cmake/kinova_bringupConfig.cmake

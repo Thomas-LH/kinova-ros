@@ -1,0 +1,4 @@
+kinova_description
+/home/lh/kinova-ros/devel/.private/kinova_description/share/kinova_description/cmake/kinova_descriptionConfig.cmake /home/lh/kinova-ros/devel/share/kinova_description/cmake/kinova_descriptionConfig.cmake
+/home/lh/kinova-ros/devel/.private/kinova_description/share/kinova_description/cmake/kinova_descriptionConfig-version.cmake /home/lh/kinova-ros/devel/share/kinova_description/cmake/kinova_descriptionConfig-version.cmake
+/home/lh/kinova-ros/devel/.private/kinova_description/lib/pkgconfig/kinova_description.pc /home/lh/kinova-ros/devel/lib/pkgconfig/kinova_description.pc
