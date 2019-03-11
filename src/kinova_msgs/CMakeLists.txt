@@ -21,7 +21,7 @@ add_message_files(
   KinovaPose.msg
   PoseVelocity.msg
   CartesianForce.msg
-  SensorsInfo.msg
+  SensorInfo.msg
 )
 
 add_service_files(

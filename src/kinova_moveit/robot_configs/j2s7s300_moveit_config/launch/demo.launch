@@ -2,7 +2,7 @@
 
   <!-- By default, we do not start a database (it can be large) -->
   <arg name="db" default="false" />
-  <!-- Allow user to specify database location -->
+  <!-- Allow user to specify database location --> 
   <arg name="db_path" default="$(find j2s7s300_moveit_config)/default_warehouse_mongo_db" />
 
   <!-- By default, we are not in debug mode -->

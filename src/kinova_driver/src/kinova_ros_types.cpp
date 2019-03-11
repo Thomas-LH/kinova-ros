@@ -47,6 +47,7 @@
 #include <math.h>
 #include <angles/angles.h>
 #include <kinova_driver/kinova_ros_types.h>
+#include <vector>
 
 namespace kinova
 {
@@ -535,54 +536,57 @@ bool FingerAngles::isCloseToOther(const FingerAngles &other, float tolerance) co
 KinovaSensors::KinovaSensors(const kinova_msgs::SensorInfo &sensors)
 {
     Voltage = sensors.voltage;
-    Current = sensors.currnet;
-    ActuatorTemp1 = sensors.actuators_temp[0];
-    ActuatorTemp2 = sensors.actuators_temp[1];
-    ActuatorTemp3 = sensors.actuators_temp[2];
-    ActuatorTemp4 = sensors.actuators_temp[3];
-    ActuatorTemp5 = sensors.actuators_temp[4];
-    ActuatorTemp6 = sensors.actuators_temp[5];
-    ActuatorTemp7 = sensors.actuators_temp[6];
-    FingerTemp1 = sensors.fingers_temp[0];
-    FingerTemp2 = sensors.fingers_temp[1];
-    FingerTemp3 = sensors.fingers_temp[2];
+    Current = sensors.current;
+    ActuatorTemps[0] = sensors.actuators_temp[0];
+    ActuatorTemps[1] = sensors.actuators_temp[1];
+    ActuatorTemps[2] = sensors.actuators_temp[2];
+    ActuatorTemps[3] = sensors.actuators_temp[3];
+    ActuatorTemps[4] = sensors.actuators_temp[4];
+    ActuatorTemps[5] = sensors.actuators_temp[5];
+    ActuatorTemps[6] = sensors.actuators_temp[6];
+    FingerTemps[0] = sensors.fingers_temp[0];
+    FingerTemps[1] = sensors.fingers_temp[1];
+    FingerTemps[2] = sensors.fingers_temp[2];
 }
 
 KinovaSensors::KinovaSensors(const SensorsInfo &sensors)
 {
+
     Voltage = sensors.Voltage;
     Current = sensors.Current;
-    ActuatorTemp1 = sensors.ActuatorTemp1;
-    ActuatorTemp2 = sensors.ActuatorTemp2;
-    ActuatorTemp3 = sensors.ActuatorTemp3;
-    ActuatorTemp4 = sensors.ActuatorTemp4;
-    ActuatorTemp5 = sensors.ActuatorTemp5;
-    ActuatorTemp6 = sensors.ActuatorTemp6;
-    ActuatorTemp7 = sensors.ActuatorTemp7;
-    FingerTemp1 = sensors.FingerTemp1;
-    FingerTemp2 = sensors.FingerTemp2;
-    FingerTemp3 = sensors.FingerTemp3;
+    ActuatorTemps[0] = sensors.ActuatorTemp1;
+    ActuatorTemps[1] = sensors.ActuatorTemp2;
+    ActuatorTemps[2] = sensors.ActuatorTemp3;
+    ActuatorTemps[3] = sensors.ActuatorTemp4;
+    ActuatorTemps[4] = sensors.ActuatorTemp5;
+    ActuatorTemps[5] = sensors.ActuatorTemp6;
+    ActuatorTemps[6] = sensors.ActuatorTemp7;
+    FingerTemps[0] = sensors.FingerTemp1;
+    FingerTemps[1] = sensors.FingerTemp2;
+    FingerTemps[2] = sensors.FingerTemp3;
 }
 
 kinova_msgs::SensorInfo KinovaSensors::constructSensorsMsg()
 {
     kinova_msgs::SensorInfo sensors;
+    std::vector<float> actuatuor_info(7);
+    std::vector<float> finger_info(3);
+
     sensors.voltage = Voltage;
-    sensors.currnet = Current;
-    sensors.actuators_temp[0] = ActuatorTemp1;
-    sensors.actuators_temp[1] = ActuatorTemp2;
-    sensors.actuators_temp[2] = ActuatorTemp3;
-    sensors.actuators_temp[3] = ActuatorTemp4;
-    sensors.actuators_temp[4] = ActuatorTemp5;
-    sensors.actuators_temp[5] = ActuatorTemp6;
-    sensors.actuators_temp[6] = ActuatorTemp7;
-    sensors.fingers_temp[0] = FingerTemp1;
-    sensors.fingers_temp[1] = FingerTemp2;
-    sensors.fingers_temp[2] = FingerTemp3;
+    sensors.current = Current;
+    for(int i=0;i<7;i++){
+        actuatuor_info[i] = ActuatorTemps[i];
+    }
+    for(int j=0;j<3;j++){
+        finger_info[j] = FingerTemps[j];
+    }
+    sensors.actuators_temp = actuatuor_info;
+    sensors.fingers_temp = finger_info;
+
     return sensors;
 }
 
-bool isCloseToOther(const KinovaSensors &other, float tolerance) const
+bool KinovaSensors::isCloseToOther(const KinovaSensors &other, float tolerance) const
 {
     bool status = true;
     status = status && areValuesClose(Voltage, other.Voltage, tolerance);

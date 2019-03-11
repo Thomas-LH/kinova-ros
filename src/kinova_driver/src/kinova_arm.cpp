@@ -718,7 +718,8 @@ void KinovaArm::statusTimer(const ros::TimerEvent&)
     publishToolPosition();
     publishToolWrench();
     publishFingerPosition();
-    publishSensorsInfo();   
+    publishSensorsInfo();
+
 }
 
 }  // namespace kinova

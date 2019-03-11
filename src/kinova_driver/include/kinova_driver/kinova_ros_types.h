@@ -135,6 +135,9 @@ class KinovaSensors : public SensorsInfo
 
       kinova_msgs::SensorInfo constructSensorsMsg();
       bool isCloseToOther(const KinovaSensors &, float tolerance) const;
+   private:
+      float ActuatorTemps[7];
+      float FingerTemps[3];
 };
 
 }  // namespace kinova

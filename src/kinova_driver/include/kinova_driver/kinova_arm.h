@@ -133,7 +133,7 @@ class KinovaArm
 
     ros::Publisher joint_command_publisher_;
     ros::Publisher cartesian_command_publisher_;
-    ros::Publisher seneor_info_publisher_;
+    ros::Publisher sensor_info_publisher_;
 
     ros::ServiceServer stop_service_;
     ros::ServiceServer start_service_;
