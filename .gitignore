@@ -52,3 +52,9 @@ kvh_driver/src/kvh_driver/
 
 # Python
 *.pyc
+
+# VS code config
+.vscode/
+
+# CSS
+*.css
