@@ -22,6 +22,7 @@ add_message_files(
   PoseVelocity.msg
   CartesianForce.msg
   SensorInfo.msg
+  StateAndObject.msg
 )
 
 add_service_files(
@@ -46,6 +47,7 @@ add_action_files(DIRECTORY action
   ArmPose.action
   Arm_KinovaPose.action
   SetFingersPosition.action
+  PoseAndSize.action
 )
 
 generate_messages(

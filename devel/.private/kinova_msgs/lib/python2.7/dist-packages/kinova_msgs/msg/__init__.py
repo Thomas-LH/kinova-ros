@@ -25,7 +25,15 @@ from ._JointAngles import *
 from ._JointTorque import *
 from ._JointVelocity import *
 from ._KinovaPose import *
+from ._PoseAndSizeAction import *
+from ._PoseAndSizeActionFeedback import *
+from ._PoseAndSizeActionGoal import *
+from ._PoseAndSizeActionResult import *
+from ._PoseAndSizeFeedback import *
+from ._PoseAndSizeGoal import *
+from ._PoseAndSizeResult import *
 from ._PoseVelocity import *
+from ._SensorInfo import *
 from ._SetFingersPositionAction import *
 from ._SetFingersPositionActionFeedback import *
 from ._SetFingersPositionActionGoal import *
@@ -33,3 +41,4 @@ from ._SetFingersPositionActionResult import *
 from ._SetFingersPositionFeedback import *
 from ._SetFingersPositionGoal import *
 from ._SetFingersPositionResult import *
+from ._StateAndObject import *

@@ -259,6 +259,32 @@ _kinova_msgs_generate_messages_check_deps_ClearTrajectories/fast:
 .PHONY : _kinova_msgs_generate_messages_check_deps_ClearTrajectories/fast
 
 #=============================================================================
+# Target rules for targets named _kinova_msgs_generate_messages_check_deps_PoseAndSizeActionFeedback
+
+# Build rule for target.
+_kinova_msgs_generate_messages_check_deps_PoseAndSizeActionFeedback: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _kinova_msgs_generate_messages_check_deps_PoseAndSizeActionFeedback
+.PHONY : _kinova_msgs_generate_messages_check_deps_PoseAndSizeActionFeedback
+
+# fast build rule for target.
+_kinova_msgs_generate_messages_check_deps_PoseAndSizeActionFeedback/fast:
+	$(MAKE) -f CMakeFiles/_kinova_msgs_generate_messages_check_deps_PoseAndSizeActionFeedback.dir/build.make CMakeFiles/_kinova_msgs_generate_messages_check_deps_PoseAndSizeActionFeedback.dir/build
+.PHONY : _kinova_msgs_generate_messages_check_deps_PoseAndSizeActionFeedback/fast
+
+#=============================================================================
+# Target rules for targets named _kinova_msgs_generate_messages_check_deps_PoseAndSizeFeedback
+
+# Build rule for target.
+_kinova_msgs_generate_messages_check_deps_PoseAndSizeFeedback: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _kinova_msgs_generate_messages_check_deps_PoseAndSizeFeedback
+.PHONY : _kinova_msgs_generate_messages_check_deps_PoseAndSizeFeedback
+
+# fast build rule for target.
+_kinova_msgs_generate_messages_check_deps_PoseAndSizeFeedback/fast:
+	$(MAKE) -f CMakeFiles/_kinova_msgs_generate_messages_check_deps_PoseAndSizeFeedback.dir/build.make CMakeFiles/_kinova_msgs_generate_messages_check_deps_PoseAndSizeFeedback.dir/build
+.PHONY : _kinova_msgs_generate_messages_check_deps_PoseAndSizeFeedback/fast
+
+#=============================================================================
 # Target rules for targets named _kinova_msgs_generate_messages_check_deps_ArmPoseActionGoal
 
 # Build rule for target.
@@ -283,6 +309,71 @@ _kinova_msgs_generate_messages_check_deps_ArmJointAnglesActionResult: cmake_chec
 _kinova_msgs_generate_messages_check_deps_ArmJointAnglesActionResult/fast:
 	$(MAKE) -f CMakeFiles/_kinova_msgs_generate_messages_check_deps_ArmJointAnglesActionResult.dir/build.make CMakeFiles/_kinova_msgs_generate_messages_check_deps_ArmJointAnglesActionResult.dir/build
 .PHONY : _kinova_msgs_generate_messages_check_deps_ArmJointAnglesActionResult/fast
+
+#=============================================================================
+# Target rules for targets named _kinova_msgs_generate_messages_check_deps_SetFingersPositionFeedback
+
+# Build rule for target.
+_kinova_msgs_generate_messages_check_deps_SetFingersPositionFeedback: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _kinova_msgs_generate_messages_check_deps_SetFingersPositionFeedback
+.PHONY : _kinova_msgs_generate_messages_check_deps_SetFingersPositionFeedback
+
+# fast build rule for target.
+_kinova_msgs_generate_messages_check_deps_SetFingersPositionFeedback/fast:
+	$(MAKE) -f CMakeFiles/_kinova_msgs_generate_messages_check_deps_SetFingersPositionFeedback.dir/build.make CMakeFiles/_kinova_msgs_generate_messages_check_deps_SetFingersPositionFeedback.dir/build
+.PHONY : _kinova_msgs_generate_messages_check_deps_SetFingersPositionFeedback/fast
+
+#=============================================================================
+# Target rules for targets named _kinova_msgs_generate_messages_check_deps_KinovaPose
+
+# Build rule for target.
+_kinova_msgs_generate_messages_check_deps_KinovaPose: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _kinova_msgs_generate_messages_check_deps_KinovaPose
+.PHONY : _kinova_msgs_generate_messages_check_deps_KinovaPose
+
+# fast build rule for target.
+_kinova_msgs_generate_messages_check_deps_KinovaPose/fast:
+	$(MAKE) -f CMakeFiles/_kinova_msgs_generate_messages_check_deps_KinovaPose.dir/build.make CMakeFiles/_kinova_msgs_generate_messages_check_deps_KinovaPose.dir/build
+.PHONY : _kinova_msgs_generate_messages_check_deps_KinovaPose/fast
+
+#=============================================================================
+# Target rules for targets named _kinova_msgs_generate_messages_check_deps_ArmPoseGoal
+
+# Build rule for target.
+_kinova_msgs_generate_messages_check_deps_ArmPoseGoal: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _kinova_msgs_generate_messages_check_deps_ArmPoseGoal
+.PHONY : _kinova_msgs_generate_messages_check_deps_ArmPoseGoal
+
+# fast build rule for target.
+_kinova_msgs_generate_messages_check_deps_ArmPoseGoal/fast:
+	$(MAKE) -f CMakeFiles/_kinova_msgs_generate_messages_check_deps_ArmPoseGoal.dir/build.make CMakeFiles/_kinova_msgs_generate_messages_check_deps_ArmPoseGoal.dir/build
+.PHONY : _kinova_msgs_generate_messages_check_deps_ArmPoseGoal/fast
+
+#=============================================================================
+# Target rules for targets named _kinova_msgs_generate_messages_check_deps_SetEndEffectorOffset
+
+# Build rule for target.
+_kinova_msgs_generate_messages_check_deps_SetEndEffectorOffset: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _kinova_msgs_generate_messages_check_deps_SetEndEffectorOffset
+.PHONY : _kinova_msgs_generate_messages_check_deps_SetEndEffectorOffset
+
+# fast build rule for target.
+_kinova_msgs_generate_messages_check_deps_SetEndEffectorOffset/fast:
+	$(MAKE) -f CMakeFiles/_kinova_msgs_generate_messages_check_deps_SetEndEffectorOffset.dir/build.make CMakeFiles/_kinova_msgs_generate_messages_check_deps_SetEndEffectorOffset.dir/build
+.PHONY : _kinova_msgs_generate_messages_check_deps_SetEndEffectorOffset/fast
+
+#=============================================================================
+# Target rules for targets named _kinova_msgs_generate_messages_check_deps_RunCOMParametersEstimation
+
+# Build rule for target.
+_kinova_msgs_generate_messages_check_deps_RunCOMParametersEstimation: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _kinova_msgs_generate_messages_check_deps_RunCOMParametersEstimation
+.PHONY : _kinova_msgs_generate_messages_check_deps_RunCOMParametersEstimation
+
+# fast build rule for target.
+_kinova_msgs_generate_messages_check_deps_RunCOMParametersEstimation/fast:
+	$(MAKE) -f CMakeFiles/_kinova_msgs_generate_messages_check_deps_RunCOMParametersEstimation.dir/build.make CMakeFiles/_kinova_msgs_generate_messages_check_deps_RunCOMParametersEstimation.dir/build
+.PHONY : _kinova_msgs_generate_messages_check_deps_RunCOMParametersEstimation/fast
 
 #=============================================================================
 # Target rules for targets named geometry_msgs_generate_messages_py
@@ -363,6 +454,19 @@ roscpp_generate_messages_lisp/fast:
 .PHONY : roscpp_generate_messages_lisp/fast
 
 #=============================================================================
+# Target rules for targets named _kinova_msgs_generate_messages_check_deps_PoseAndSizeAction
+
+# Build rule for target.
+_kinova_msgs_generate_messages_check_deps_PoseAndSizeAction: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _kinova_msgs_generate_messages_check_deps_PoseAndSizeAction
+.PHONY : _kinova_msgs_generate_messages_check_deps_PoseAndSizeAction
+
+# fast build rule for target.
+_kinova_msgs_generate_messages_check_deps_PoseAndSizeAction/fast:
+	$(MAKE) -f CMakeFiles/_kinova_msgs_generate_messages_check_deps_PoseAndSizeAction.dir/build.make CMakeFiles/_kinova_msgs_generate_messages_check_deps_PoseAndSizeAction.dir/build
+.PHONY : _kinova_msgs_generate_messages_check_deps_PoseAndSizeAction/fast
+
+#=============================================================================
 # Target rules for targets named _kinova_msgs_generate_messages_check_deps_SetForceControlParams
 
 # Build rule for target.
@@ -387,6 +491,19 @@ std_msgs_generate_messages_py: cmake_check_build_system
 std_msgs_generate_messages_py/fast:
 	$(MAKE) -f CMakeFiles/std_msgs_generate_messages_py.dir/build.make CMakeFiles/std_msgs_generate_messages_py.dir/build
 .PHONY : std_msgs_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named _kinova_msgs_generate_messages_check_deps_PoseAndSizeGoal
+
+# Build rule for target.
+_kinova_msgs_generate_messages_check_deps_PoseAndSizeGoal: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _kinova_msgs_generate_messages_check_deps_PoseAndSizeGoal
+.PHONY : _kinova_msgs_generate_messages_check_deps_PoseAndSizeGoal
+
+# fast build rule for target.
+_kinova_msgs_generate_messages_check_deps_PoseAndSizeGoal/fast:
+	$(MAKE) -f CMakeFiles/_kinova_msgs_generate_messages_check_deps_PoseAndSizeGoal.dir/build.make CMakeFiles/_kinova_msgs_generate_messages_check_deps_PoseAndSizeGoal.dir/build
+.PHONY : _kinova_msgs_generate_messages_check_deps_PoseAndSizeGoal/fast
 
 #=============================================================================
 # Target rules for targets named _kinova_msgs_generate_messages_check_deps_SetFingersPositionGoal
@@ -584,6 +701,19 @@ _kinova_msgs_generate_messages_check_deps_SetFingersPositionResult/fast:
 .PHONY : _kinova_msgs_generate_messages_check_deps_SetFingersPositionResult/fast
 
 #=============================================================================
+# Target rules for targets named _kinova_msgs_generate_messages_check_deps_StateAndObject
+
+# Build rule for target.
+_kinova_msgs_generate_messages_check_deps_StateAndObject: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _kinova_msgs_generate_messages_check_deps_StateAndObject
+.PHONY : _kinova_msgs_generate_messages_check_deps_StateAndObject
+
+# fast build rule for target.
+_kinova_msgs_generate_messages_check_deps_StateAndObject/fast:
+	$(MAKE) -f CMakeFiles/_kinova_msgs_generate_messages_check_deps_StateAndObject.dir/build.make CMakeFiles/_kinova_msgs_generate_messages_check_deps_StateAndObject.dir/build
+.PHONY : _kinova_msgs_generate_messages_check_deps_StateAndObject/fast
+
+#=============================================================================
 # Target rules for targets named roscpp_generate_messages_cpp
 
 # Build rule for target.
@@ -712,19 +842,6 @@ _kinova_msgs_generate_messages_check_deps_ArmJointAnglesFeedback: cmake_check_bu
 _kinova_msgs_generate_messages_check_deps_ArmJointAnglesFeedback/fast:
 	$(MAKE) -f CMakeFiles/_kinova_msgs_generate_messages_check_deps_ArmJointAnglesFeedback.dir/build.make CMakeFiles/_kinova_msgs_generate_messages_check_deps_ArmJointAnglesFeedback.dir/build
 .PHONY : _kinova_msgs_generate_messages_check_deps_ArmJointAnglesFeedback/fast
-
-#=============================================================================
-# Target rules for targets named _kinova_msgs_generate_messages_check_deps_SetEndEffectorOffset
-
-# Build rule for target.
-_kinova_msgs_generate_messages_check_deps_SetEndEffectorOffset: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 _kinova_msgs_generate_messages_check_deps_SetEndEffectorOffset
-.PHONY : _kinova_msgs_generate_messages_check_deps_SetEndEffectorOffset
-
-# fast build rule for target.
-_kinova_msgs_generate_messages_check_deps_SetEndEffectorOffset/fast:
-	$(MAKE) -f CMakeFiles/_kinova_msgs_generate_messages_check_deps_SetEndEffectorOffset.dir/build.make CMakeFiles/_kinova_msgs_generate_messages_check_deps_SetEndEffectorOffset.dir/build
-.PHONY : _kinova_msgs_generate_messages_check_deps_SetEndEffectorOffset/fast
 
 #=============================================================================
 # Target rules for targets named rosgraph_msgs_generate_messages_lisp
@@ -1039,6 +1156,19 @@ _kinova_msgs_generate_messages_check_deps_Arm_KinovaPoseActionGoal/fast:
 .PHONY : _kinova_msgs_generate_messages_check_deps_Arm_KinovaPoseActionGoal/fast
 
 #=============================================================================
+# Target rules for targets named _kinova_msgs_generate_messages_check_deps_SensorInfo
+
+# Build rule for target.
+_kinova_msgs_generate_messages_check_deps_SensorInfo: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _kinova_msgs_generate_messages_check_deps_SensorInfo
+.PHONY : _kinova_msgs_generate_messages_check_deps_SensorInfo
+
+# fast build rule for target.
+_kinova_msgs_generate_messages_check_deps_SensorInfo/fast:
+	$(MAKE) -f CMakeFiles/_kinova_msgs_generate_messages_check_deps_SensorInfo.dir/build.make CMakeFiles/_kinova_msgs_generate_messages_check_deps_SensorInfo.dir/build
+.PHONY : _kinova_msgs_generate_messages_check_deps_SensorInfo/fast
+
+#=============================================================================
 # Target rules for targets named _kinova_msgs_generate_messages_check_deps_HomeArm
 
 # Build rule for target.
@@ -1065,19 +1195,6 @@ _kinova_msgs_generate_messages_check_deps_ArmJointAnglesActionGoal/fast:
 .PHONY : _kinova_msgs_generate_messages_check_deps_ArmJointAnglesActionGoal/fast
 
 #=============================================================================
-# Target rules for targets named _kinova_msgs_generate_messages_check_deps_PoseVelocity
-
-# Build rule for target.
-_kinova_msgs_generate_messages_check_deps_PoseVelocity: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 _kinova_msgs_generate_messages_check_deps_PoseVelocity
-.PHONY : _kinova_msgs_generate_messages_check_deps_PoseVelocity
-
-# fast build rule for target.
-_kinova_msgs_generate_messages_check_deps_PoseVelocity/fast:
-	$(MAKE) -f CMakeFiles/_kinova_msgs_generate_messages_check_deps_PoseVelocity.dir/build.make CMakeFiles/_kinova_msgs_generate_messages_check_deps_PoseVelocity.dir/build
-.PHONY : _kinova_msgs_generate_messages_check_deps_PoseVelocity/fast
-
-#=============================================================================
 # Target rules for targets named _kinova_msgs_generate_messages_check_deps_SetFingersPositionActionFeedback
 
 # Build rule for target.
@@ -1089,6 +1206,19 @@ _kinova_msgs_generate_messages_check_deps_SetFingersPositionActionFeedback: cmak
 _kinova_msgs_generate_messages_check_deps_SetFingersPositionActionFeedback/fast:
 	$(MAKE) -f CMakeFiles/_kinova_msgs_generate_messages_check_deps_SetFingersPositionActionFeedback.dir/build.make CMakeFiles/_kinova_msgs_generate_messages_check_deps_SetFingersPositionActionFeedback.dir/build
 .PHONY : _kinova_msgs_generate_messages_check_deps_SetFingersPositionActionFeedback/fast
+
+#=============================================================================
+# Target rules for targets named _kinova_msgs_generate_messages_check_deps_PoseVelocity
+
+# Build rule for target.
+_kinova_msgs_generate_messages_check_deps_PoseVelocity: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _kinova_msgs_generate_messages_check_deps_PoseVelocity
+.PHONY : _kinova_msgs_generate_messages_check_deps_PoseVelocity
+
+# fast build rule for target.
+_kinova_msgs_generate_messages_check_deps_PoseVelocity/fast:
+	$(MAKE) -f CMakeFiles/_kinova_msgs_generate_messages_check_deps_PoseVelocity.dir/build.make CMakeFiles/_kinova_msgs_generate_messages_check_deps_PoseVelocity.dir/build
+.PHONY : _kinova_msgs_generate_messages_check_deps_PoseVelocity/fast
 
 #=============================================================================
 # Target rules for targets named _kinova_msgs_generate_messages_check_deps_ArmPoseActionFeedback
@@ -1141,6 +1271,19 @@ _kinova_msgs_generate_messages_check_deps_Start: cmake_check_build_system
 _kinova_msgs_generate_messages_check_deps_Start/fast:
 	$(MAKE) -f CMakeFiles/_kinova_msgs_generate_messages_check_deps_Start.dir/build.make CMakeFiles/_kinova_msgs_generate_messages_check_deps_Start.dir/build
 .PHONY : _kinova_msgs_generate_messages_check_deps_Start/fast
+
+#=============================================================================
+# Target rules for targets named _kinova_msgs_generate_messages_check_deps_PoseAndSizeActionGoal
+
+# Build rule for target.
+_kinova_msgs_generate_messages_check_deps_PoseAndSizeActionGoal: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _kinova_msgs_generate_messages_check_deps_PoseAndSizeActionGoal
+.PHONY : _kinova_msgs_generate_messages_check_deps_PoseAndSizeActionGoal
+
+# fast build rule for target.
+_kinova_msgs_generate_messages_check_deps_PoseAndSizeActionGoal/fast:
+	$(MAKE) -f CMakeFiles/_kinova_msgs_generate_messages_check_deps_PoseAndSizeActionGoal.dir/build.make CMakeFiles/_kinova_msgs_generate_messages_check_deps_PoseAndSizeActionGoal.dir/build
+.PHONY : _kinova_msgs_generate_messages_check_deps_PoseAndSizeActionGoal/fast
 
 #=============================================================================
 # Target rules for targets named _kinova_msgs_generate_messages_check_deps_JointTorque
@@ -1234,6 +1377,19 @@ _kinova_msgs_generate_messages_check_deps_CartesianForce/fast:
 .PHONY : _kinova_msgs_generate_messages_check_deps_CartesianForce/fast
 
 #=============================================================================
+# Target rules for targets named _kinova_msgs_generate_messages_check_deps_PoseAndSizeActionResult
+
+# Build rule for target.
+_kinova_msgs_generate_messages_check_deps_PoseAndSizeActionResult: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _kinova_msgs_generate_messages_check_deps_PoseAndSizeActionResult
+.PHONY : _kinova_msgs_generate_messages_check_deps_PoseAndSizeActionResult
+
+# fast build rule for target.
+_kinova_msgs_generate_messages_check_deps_PoseAndSizeActionResult/fast:
+	$(MAKE) -f CMakeFiles/_kinova_msgs_generate_messages_check_deps_PoseAndSizeActionResult.dir/build.make CMakeFiles/_kinova_msgs_generate_messages_check_deps_PoseAndSizeActionResult.dir/build
+.PHONY : _kinova_msgs_generate_messages_check_deps_PoseAndSizeActionResult/fast
+
+#=============================================================================
 # Target rules for targets named _kinova_msgs_generate_messages_check_deps_ArmJointAnglesAction
 
 # Build rule for target.
@@ -1247,17 +1403,17 @@ _kinova_msgs_generate_messages_check_deps_ArmJointAnglesAction/fast:
 .PHONY : _kinova_msgs_generate_messages_check_deps_ArmJointAnglesAction/fast
 
 #=============================================================================
-# Target rules for targets named _kinova_msgs_generate_messages_check_deps_ArmPoseGoal
+# Target rules for targets named _kinova_msgs_generate_messages_check_deps_PoseAndSizeResult
 
 # Build rule for target.
-_kinova_msgs_generate_messages_check_deps_ArmPoseGoal: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 _kinova_msgs_generate_messages_check_deps_ArmPoseGoal
-.PHONY : _kinova_msgs_generate_messages_check_deps_ArmPoseGoal
+_kinova_msgs_generate_messages_check_deps_PoseAndSizeResult: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _kinova_msgs_generate_messages_check_deps_PoseAndSizeResult
+.PHONY : _kinova_msgs_generate_messages_check_deps_PoseAndSizeResult
 
 # fast build rule for target.
-_kinova_msgs_generate_messages_check_deps_ArmPoseGoal/fast:
-	$(MAKE) -f CMakeFiles/_kinova_msgs_generate_messages_check_deps_ArmPoseGoal.dir/build.make CMakeFiles/_kinova_msgs_generate_messages_check_deps_ArmPoseGoal.dir/build
-.PHONY : _kinova_msgs_generate_messages_check_deps_ArmPoseGoal/fast
+_kinova_msgs_generate_messages_check_deps_PoseAndSizeResult/fast:
+	$(MAKE) -f CMakeFiles/_kinova_msgs_generate_messages_check_deps_PoseAndSizeResult.dir/build.make CMakeFiles/_kinova_msgs_generate_messages_check_deps_PoseAndSizeResult.dir/build
+.PHONY : _kinova_msgs_generate_messages_check_deps_PoseAndSizeResult/fast
 
 #=============================================================================
 # Target rules for targets named _kinova_msgs_generate_messages_check_deps_Arm_KinovaPoseActionResult
@@ -1297,19 +1453,6 @@ _kinova_msgs_generate_messages_check_deps_JointAngles: cmake_check_build_system
 _kinova_msgs_generate_messages_check_deps_JointAngles/fast:
 	$(MAKE) -f CMakeFiles/_kinova_msgs_generate_messages_check_deps_JointAngles.dir/build.make CMakeFiles/_kinova_msgs_generate_messages_check_deps_JointAngles.dir/build
 .PHONY : _kinova_msgs_generate_messages_check_deps_JointAngles/fast
-
-#=============================================================================
-# Target rules for targets named _kinova_msgs_generate_messages_check_deps_RunCOMParametersEstimation
-
-# Build rule for target.
-_kinova_msgs_generate_messages_check_deps_RunCOMParametersEstimation: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 _kinova_msgs_generate_messages_check_deps_RunCOMParametersEstimation
-.PHONY : _kinova_msgs_generate_messages_check_deps_RunCOMParametersEstimation
-
-# fast build rule for target.
-_kinova_msgs_generate_messages_check_deps_RunCOMParametersEstimation/fast:
-	$(MAKE) -f CMakeFiles/_kinova_msgs_generate_messages_check_deps_RunCOMParametersEstimation.dir/build.make CMakeFiles/_kinova_msgs_generate_messages_check_deps_RunCOMParametersEstimation.dir/build
-.PHONY : _kinova_msgs_generate_messages_check_deps_RunCOMParametersEstimation/fast
 
 #=============================================================================
 # Target rules for targets named _kinova_msgs_generate_messages_check_deps_SetFingersPositionAction
@@ -1362,32 +1505,6 @@ _kinova_msgs_generate_messages_check_deps_SetTorqueControlMode: cmake_check_buil
 _kinova_msgs_generate_messages_check_deps_SetTorqueControlMode/fast:
 	$(MAKE) -f CMakeFiles/_kinova_msgs_generate_messages_check_deps_SetTorqueControlMode.dir/build.make CMakeFiles/_kinova_msgs_generate_messages_check_deps_SetTorqueControlMode.dir/build
 .PHONY : _kinova_msgs_generate_messages_check_deps_SetTorqueControlMode/fast
-
-#=============================================================================
-# Target rules for targets named _kinova_msgs_generate_messages_check_deps_KinovaPose
-
-# Build rule for target.
-_kinova_msgs_generate_messages_check_deps_KinovaPose: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 _kinova_msgs_generate_messages_check_deps_KinovaPose
-.PHONY : _kinova_msgs_generate_messages_check_deps_KinovaPose
-
-# fast build rule for target.
-_kinova_msgs_generate_messages_check_deps_KinovaPose/fast:
-	$(MAKE) -f CMakeFiles/_kinova_msgs_generate_messages_check_deps_KinovaPose.dir/build.make CMakeFiles/_kinova_msgs_generate_messages_check_deps_KinovaPose.dir/build
-.PHONY : _kinova_msgs_generate_messages_check_deps_KinovaPose/fast
-
-#=============================================================================
-# Target rules for targets named _kinova_msgs_generate_messages_check_deps_SetFingersPositionFeedback
-
-# Build rule for target.
-_kinova_msgs_generate_messages_check_deps_SetFingersPositionFeedback: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 _kinova_msgs_generate_messages_check_deps_SetFingersPositionFeedback
-.PHONY : _kinova_msgs_generate_messages_check_deps_SetFingersPositionFeedback
-
-# fast build rule for target.
-_kinova_msgs_generate_messages_check_deps_SetFingersPositionFeedback/fast:
-	$(MAKE) -f CMakeFiles/_kinova_msgs_generate_messages_check_deps_SetFingersPositionFeedback.dir/build.make CMakeFiles/_kinova_msgs_generate_messages_check_deps_SetFingersPositionFeedback.dir/build
-.PHONY : _kinova_msgs_generate_messages_check_deps_SetFingersPositionFeedback/fast
 
 #=============================================================================
 # Target rules for targets named gmock_main
@@ -1458,16 +1575,25 @@ help:
 	@echo "... kinova_msgs_gencpp"
 	@echo "... kinova_msgs_generate_messages_lisp"
 	@echo "... _kinova_msgs_generate_messages_check_deps_ClearTrajectories"
+	@echo "... _kinova_msgs_generate_messages_check_deps_PoseAndSizeActionFeedback"
+	@echo "... _kinova_msgs_generate_messages_check_deps_PoseAndSizeFeedback"
 	@echo "... _kinova_msgs_generate_messages_check_deps_ArmPoseActionGoal"
 	@echo "... _kinova_msgs_generate_messages_check_deps_ArmJointAnglesActionResult"
+	@echo "... _kinova_msgs_generate_messages_check_deps_SetFingersPositionFeedback"
+	@echo "... _kinova_msgs_generate_messages_check_deps_KinovaPose"
+	@echo "... _kinova_msgs_generate_messages_check_deps_ArmPoseGoal"
+	@echo "... _kinova_msgs_generate_messages_check_deps_SetEndEffectorOffset"
+	@echo "... _kinova_msgs_generate_messages_check_deps_RunCOMParametersEstimation"
 	@echo "... geometry_msgs_generate_messages_py"
 	@echo "... geometry_msgs_generate_messages_eus"
 	@echo "... roscpp_generate_messages_py"
 	@echo "... _kinova_msgs_generate_messages_check_deps_SetFingersPositionActionGoal"
 	@echo "... clean_test_results"
 	@echo "... roscpp_generate_messages_lisp"
+	@echo "... _kinova_msgs_generate_messages_check_deps_PoseAndSizeAction"
 	@echo "... _kinova_msgs_generate_messages_check_deps_SetForceControlParams"
 	@echo "... std_msgs_generate_messages_py"
+	@echo "... _kinova_msgs_generate_messages_check_deps_PoseAndSizeGoal"
 	@echo "... _kinova_msgs_generate_messages_check_deps_SetFingersPositionGoal"
 	@echo "... std_msgs_generate_messages_nodejs"
 	@echo "... _kinova_msgs_generate_messages_check_deps_ZeroTorques"
@@ -1483,6 +1609,7 @@ help:
 	@echo "... actionlib_msgs_generate_messages_nodejs"
 	@echo "... kinova_msgs_generate_messages_cpp"
 	@echo "... _kinova_msgs_generate_messages_check_deps_SetFingersPositionResult"
+	@echo "... _kinova_msgs_generate_messages_check_deps_StateAndObject"
 	@echo "... roscpp_generate_messages_cpp"
 	@echo "... rebuild_cache"
 	@echo "... actionlib_generate_messages_cpp"
@@ -1494,7 +1621,6 @@ help:
 	@echo "... _kinova_msgs_generate_messages_check_deps_ArmPoseAction"
 	@echo "... actionlib_generate_messages_eus"
 	@echo "... _kinova_msgs_generate_messages_check_deps_ArmJointAnglesFeedback"
-	@echo "... _kinova_msgs_generate_messages_check_deps_SetEndEffectorOffset"
 	@echo "... rosgraph_msgs_generate_messages_lisp"
 	@echo "... geometry_msgs_generate_messages_cpp"
 	@echo "... actionlib_generate_messages_lisp"
@@ -1520,15 +1646,17 @@ help:
 	@echo "... _kinova_msgs_generate_messages_check_deps_ArmJointAnglesActionFeedback"
 	@echo "... _kinova_msgs_generate_messages_check_deps_Arm_KinovaPoseActionFeedback"
 	@echo "... _kinova_msgs_generate_messages_check_deps_Arm_KinovaPoseActionGoal"
+	@echo "... _kinova_msgs_generate_messages_check_deps_SensorInfo"
 	@echo "... _kinova_msgs_generate_messages_check_deps_HomeArm"
 	@echo "... list_install_components"
 	@echo "... _kinova_msgs_generate_messages_check_deps_ArmJointAnglesActionGoal"
-	@echo "... _kinova_msgs_generate_messages_check_deps_PoseVelocity"
 	@echo "... _kinova_msgs_generate_messages_check_deps_SetFingersPositionActionFeedback"
+	@echo "... _kinova_msgs_generate_messages_check_deps_PoseVelocity"
 	@echo "... _kinova_msgs_generate_messages_check_deps_ArmPoseActionFeedback"
 	@echo "... _kinova_msgs_generate_messages_check_deps_Stop"
 	@echo "... actionlib_generate_messages_py"
 	@echo "... _kinova_msgs_generate_messages_check_deps_Start"
+	@echo "... _kinova_msgs_generate_messages_check_deps_PoseAndSizeActionGoal"
 	@echo "... _kinova_msgs_generate_messages_check_deps_JointTorque"
 	@echo "... _kinova_msgs_generate_messages_check_deps_SetFingersPositionActionResult"
 	@echo "... _kinova_msgs_generate_messages_check_deps_Arm_KinovaPoseGoal"
@@ -1536,18 +1664,16 @@ help:
 	@echo "... geometry_msgs_generate_messages_lisp"
 	@echo "... _kinova_msgs_generate_messages_check_deps_Arm_KinovaPoseFeedback"
 	@echo "... _kinova_msgs_generate_messages_check_deps_CartesianForce"
+	@echo "... _kinova_msgs_generate_messages_check_deps_PoseAndSizeActionResult"
 	@echo "... _kinova_msgs_generate_messages_check_deps_ArmJointAnglesAction"
-	@echo "... _kinova_msgs_generate_messages_check_deps_ArmPoseGoal"
+	@echo "... _kinova_msgs_generate_messages_check_deps_PoseAndSizeResult"
 	@echo "... _kinova_msgs_generate_messages_check_deps_Arm_KinovaPoseActionResult"
 	@echo "... _kinova_msgs_generate_messages_check_deps_AddPoseToCartesianTrajectory"
 	@echo "... _kinova_msgs_generate_messages_check_deps_JointAngles"
-	@echo "... _kinova_msgs_generate_messages_check_deps_RunCOMParametersEstimation"
 	@echo "... _kinova_msgs_generate_messages_check_deps_SetFingersPositionAction"
 	@echo "... _kinova_msgs_generate_messages_check_deps_ArmPoseActionResult"
 	@echo "... _kinova_msgs_generate_messages_check_deps_JointVelocity"
 	@echo "... _kinova_msgs_generate_messages_check_deps_SetTorqueControlMode"
-	@echo "... _kinova_msgs_generate_messages_check_deps_KinovaPose"
-	@echo "... _kinova_msgs_generate_messages_check_deps_SetFingersPositionFeedback"
 	@echo "... gmock_main"
 	@echo "... gmock"
 	@echo "... gtest_main"

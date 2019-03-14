@@ -1,0 +1,10 @@
+# Goal
+geometry_msgs/PointStamped object_pose
+geometry_msgs/Point object_size
+string object_class
+---
+# Result
+geometry_msgs/PointStamped arm_pose
+---
+# Feedback message
+geometry_msgs/PointStamped arm_pose

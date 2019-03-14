@@ -128,6 +128,8 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     "/home/lh/kinova-ros/src/kinova_msgs/msg/KinovaPose.msg"
     "/home/lh/kinova-ros/src/kinova_msgs/msg/PoseVelocity.msg"
     "/home/lh/kinova-ros/src/kinova_msgs/msg/CartesianForce.msg"
+    "/home/lh/kinova-ros/src/kinova_msgs/msg/SensorInfo.msg"
+    "/home/lh/kinova-ros/src/kinova_msgs/msg/StateAndObject.msg"
     )
 endif()
 
@@ -154,6 +156,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     "/home/lh/kinova-ros/src/kinova_msgs/action/ArmPose.action"
     "/home/lh/kinova-ros/src/kinova_msgs/action/Arm_KinovaPose.action"
     "/home/lh/kinova-ros/src/kinova_msgs/action/SetFingersPosition.action"
+    "/home/lh/kinova-ros/src/kinova_msgs/action/PoseAndSize.action"
     )
 endif()
 
@@ -202,6 +205,18 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     "/home/lh/kinova-ros/devel/.private/kinova_msgs/share/kinova_msgs/msg/SetFingersPositionGoal.msg"
     "/home/lh/kinova-ros/devel/.private/kinova_msgs/share/kinova_msgs/msg/SetFingersPositionResult.msg"
     "/home/lh/kinova-ros/devel/.private/kinova_msgs/share/kinova_msgs/msg/SetFingersPositionFeedback.msg"
+    )
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kinova_msgs/msg" TYPE FILE FILES
+    "/home/lh/kinova-ros/devel/.private/kinova_msgs/share/kinova_msgs/msg/PoseAndSizeAction.msg"
+    "/home/lh/kinova-ros/devel/.private/kinova_msgs/share/kinova_msgs/msg/PoseAndSizeActionGoal.msg"
+    "/home/lh/kinova-ros/devel/.private/kinova_msgs/share/kinova_msgs/msg/PoseAndSizeActionResult.msg"
+    "/home/lh/kinova-ros/devel/.private/kinova_msgs/share/kinova_msgs/msg/PoseAndSizeActionFeedback.msg"
+    "/home/lh/kinova-ros/devel/.private/kinova_msgs/share/kinova_msgs/msg/PoseAndSizeGoal.msg"
+    "/home/lh/kinova-ros/devel/.private/kinova_msgs/share/kinova_msgs/msg/PoseAndSizeResult.msg"
+    "/home/lh/kinova-ros/devel/.private/kinova_msgs/share/kinova_msgs/msg/PoseAndSizeFeedback.msg"
     )
 endif()
 
